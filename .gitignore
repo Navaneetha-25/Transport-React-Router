@@ -30,5 +30,10 @@ dist-ssr
 # Ignore everything inside components
 src/components/*
 
-# But allow BMI Calculator file
-!src/components/BMICalculator.jsx
+# Allow only Transport folder
+!src/components/Transport/
+!src/components/Transport/**
+
+# Allow App files
+!src/App.jsx
+!src/App.css
